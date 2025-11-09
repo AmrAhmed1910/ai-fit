@@ -28,7 +28,7 @@ export default function App() {
         <Router basename={window.location.pathname.includes('.html') ? window.location.pathname : ''}>
           <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors">
             <Routes>
-              <Route path="/" element={<LandingPage />} />
+              <Route path="/demo-aifit" element={<LandingPage />} />
               <Route path="/stores" element={<StoresPage />} />
               <Route path="/products" element={<ProductsPage />} />
               <Route path="/products/:id" element={<ProductDetailPage />} />
